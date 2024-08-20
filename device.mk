@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/motorola/kane
+
+PRODUCT_MODEL := One Vision
+
 # Inherit from the common tree
 $(call inherit-product, device/motorola/exynos9610-common/common.mk)
 

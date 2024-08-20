@@ -13,10 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kane.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_kane-user \
-    lineage_kane-userdebug \
-    lineage_kane-eng
+PRODUCT_MAKEFILES := $(wildcard device/motorola/targets/devices/kane/*.mk)
